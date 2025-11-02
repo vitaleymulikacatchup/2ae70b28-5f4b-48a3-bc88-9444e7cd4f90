@@ -51,7 +51,7 @@ export default function Home() {
               href: "product"
             }
           ]}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32m5rRdd38TAyU0DZCqvrl288SF/uploaded-1762108874147-2vsb4ge8.png"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32m5rRdd38TAyU0DZCqvrl288SF/uploaded-1762108908439-sh9jrag0.png"
           imageAlt="Luxe Haven Hotel elegant lobby interior"
           imagePosition="right"
         />
