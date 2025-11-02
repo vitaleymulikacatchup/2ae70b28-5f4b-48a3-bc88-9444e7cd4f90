@@ -45,10 +45,7 @@ export default function Home() {
           tag="5-Star Experience"
           tagIcon={Star}
           buttons={[
-            {
-              text: "Book Your Stay",
-              href: "https://booking.example.com"
-            },
+            { text: "Book Your Stay", href: "https://x.com/GlydeGG" },
             {
               text: "Explore Rooms",
               href: "product"
