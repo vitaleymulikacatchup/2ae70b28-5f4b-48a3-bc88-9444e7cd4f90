@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarLayoutFloatingOverlay from "@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay";
@@ -13,6 +13,15 @@ import SocialProofOne from "@/components/sections/socialProof/SocialProofOne";
 import ContactSplitForm from "@/components/sections/contact/ContactSplitForm";
 import FooterBase from "@/components/sections/footer/FooterBase";
 import { Award, Bed, Calendar, Gift, Heart, MessageCircle, Shield, Sparkles, Star, TrendingUp, Users } from "lucide-react";
+
+const assetMap = [
+  { id: "hero-image", url: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32m5rRdd38TAyU0DZCqvrl288SF/uploaded-1762108908439-sh9jrag0.png", alt: "Luxe Haven Hotel elegant lobby interior" },
+  { id: "spa-image", url: "https://images.pexels.com/photos/6957079/pexels-photo-6957079.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Luxury spa treatment room" },
+  { id: "dining-image", url: "https://images.pexels.com/photos/2291636/pexels-photo-2291636.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Elegant hotel restaurant" },
+  { id: "fitness-image", url: "https://images.pexels.com/photos/3902730/pexels-photo-3902730.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Modern hotel fitness center" },
+  { id: "concierge-image", url: "https://images.pexels.com/photos/7820689/pexels-photo-7820689.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Hotel concierge service desk" },
+  { id: "contact-image", url: "https://images.pexels.com/photos/3771110/pexels-photo-3771110.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Luxury hotel reception desk" }
+];
 
 export default function Home() {
   return (
@@ -376,7 +385,7 @@ export default function Home() {
           }}
           imageSrc="https://images.pexels.com/photos/3771110/pexels-photo-3771110.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
           imageAlt="Luxury hotel reception desk"
-          buttonText="Send Inquiry"
+          buttonText="Get Instant Quote"
         />
       </div>
       
