@@ -40,7 +40,7 @@ export default function Home() {
       
       <div id="hero" data-section="hero">
         <HeroSplit
-          title="Experience Luxury Redefined"
+          title="Experience Luxury Redefined. testestestest"
           description="Indulge in unparalleled elegance at Luxe Haven Hotel, where every moment becomes an extraordinary memory in the heart of the city. Webistesssss"
           tag="5-Star Experience"
           tagIcon={Star}
